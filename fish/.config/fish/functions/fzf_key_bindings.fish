@@ -1,0 +1,1 @@
+/home/gunpachi/.fzf/shell/key-bindings.fish
