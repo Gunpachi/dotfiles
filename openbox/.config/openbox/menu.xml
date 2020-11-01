@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<openbox_menu>
+    <menu id="root-menu" label="OpenBox 3">
+        <menu id="1" label="Development">
+            <item label="CMake curses GUI (ccmake)"> <action name="Execute">
+                <execute>xterm -e ccmake</execute>
+            </action> </item>
+            <item label="IDLE (Python IDE)"> <action name="Execute">
+                <execute>idle</execute>
+            </action> </item>
+            <item label="Python"> <action name="Execute">
+                <execute>xterm -e python</execute>
+            </action> </item>
+            <item label="Python (v2.7)"> <action name="Execute">
+                <execute>xterm -e python2.7</execute>
+            </action> </item>
+            <item label="Qt4 Assistant"> <action name="Execute">
+                <execute>assistant</execute>
+            </action> </item>
+            <item label="Qt4 Designer"> <action name="Execute">
+                <execute>designer</execute>
+            </action> </item>
+            <item label="Qt4 Linguist"> <action name="Execute">
+                <execute>linguist</execute>
+            </action> </item>
+            <item label="sandbox"> <action name="Execute">
+                <execute>xterm -e sandbox</execute>
+            </action> </item>
+            <item label="Tclsh8.6"> <action name="Execute">
+                <execute>xterm -e tclsh8.6</execute>
+            </action> </item>
+        </menu>
+        <menu id="2" label="Editors">
+            <item label="Neovim"> <action name="Execute">
+                <execute>xterm -e nvim</execute>
+            </action> </item>
+        </menu>
+        <menu id="18" label="Games">
+            <menu id="17" label="Amusement">
+                <item label="bb"> <action name="Execute">
+                    <execute>bb</execute>
+                </action> </item>
+            </menu>
+        </menu>
+        <menu id="7" label="Multimedia">
+            <item label="ALSA mixer"> <action name="Execute">
+                <execute>xterm -e alsamixer</execute>
+            </action> </item>
+            <item label="mpv Media Player"> <action name="Execute">
+                <execute>mpv</execute>
+            </action> </item>
+        </menu>
+        <menu id="5" label="Network">
+            <item label="Mail Reader"> <action name="Execute">
+                <execute>exo-open --launch MailReader</execute>
+            </action> </item>
+            <item label="Mozilla Firefox (bin)"> <action name="Execute">
+                <execute>firefox-bin</execute>
+            </action> </item>
+            <item label="qBittorrent"> <action name="Execute">
+                <execute>qbittorrent</execute>
+            </action> </item>
+            <item label="Telegram Desktop"> <action name="Execute">
+                <execute>telegram-desktop</execute>
+            </action> </item>
+            <item label="TkVNC"> <action name="Execute">
+                <execute>xterm -e tkvnc</execute>
+            </action> </item>
+            <item label="Web Browser"> <action name="Execute">
+                <execute>exo-open --launch WebBrowser</execute>
+            </action> </item>
+        </menu>
+        <menu id="4" label="Science">
+            <item label="bc"> <action name="Execute">
+                <execute>xterm -e bc</execute>
+            </action> </item>
+            <item label="dc"> <action name="Execute">
+                <execute>xterm -e dc</execute>
+            </action> </item>
+        </menu>
+        <menu id="19" label="Shells">
+            <item label="Alacritty"> <action name="Execute">
+                <execute>alacritty</execute>
+            </action> </item>
+            <item label="File Manager PCManFM"> <action name="Execute">
+                <execute>pcmanfm</execute>
+            </action> </item>
+            <item label="GIT"> <action name="Execute">
+                <execute>xterm -e git</execute>
+            </action> </item>
+            <item label="rc"> <action name="Execute">
+                <execute>xterm -e rc</execute>
+            </action> </item>
+            <item label="Thunar File Manager"> <action name="Execute">
+                <execute>thunar</execute>
+            </action> </item>
+            <item label="UXTerm"> <action name="Execute">
+                <execute>uxterm</execute>
+            </action> </item>
+            <item label="Xterm"> <action name="Execute">
+                <execute>xterm</execute>
+            </action> </item>
+        </menu>
+        <menu id="37" label="System">
+            <menu id="36" label="Settings">
+                <item label="Customize Look and Feel"> <action name="Execute">
+                    <execute>lxappearance</execute>
+                </action> </item>
+                <item label="Desktop Preferences"> <action name="Execute">
+                    <execute>pcmanfm --desktop-pref</execute>
+                </action> </item>
+                <item label="File Manager Settings"> <action name="Execute">
+                    <execute>thunar-settings</execute>
+                </action> </item>
+                <item label="Openbox Configuration Manager"> <action name="Execute">
+                    <execute>obconf</execute>
+                </action> </item>
+                <item label="Panel"> <action name="Execute">
+                    <execute>xfce4-panel --preferences</execute>
+                </action> </item>
+                <item label="Preferred Applications"> <action name="Execute">
+                    <execute>exo-preferred-applications</execute>
+                </action> </item>
+                <item label="Preferred Applications"> <action name="Execute">
+                    <execute>libfm-pref-apps</execute>
+                </action> </item>
+                <item label="Removable Drives and Media"> <action name="Execute">
+                    <execute>thunar-volman-settings</execute>
+                </action> </item>
+            </menu>
+            <item label="Bulk Rename"> <action name="Execute">
+                <execute>/usr/lib64/Thunar/ThunarBulkRename</execute>
+            </action> </item>
+            <item label="Htop"> <action name="Execute">
+                <execute>xterm -e htop</execute>
+            </action> </item>
+            <item label="pstree"> <action name="Execute">
+                <execute>xterm -e /usr/bin/pstree.x11</execute>
+            </action> </item>
+            <item label="pstree"> <action name="Execute">
+                <execute>xterm -e pstree</execute>
+            </action> </item>
+            <item label="Pstree"> <action name="Execute">
+                <execute>xterm -e pstree.x11</execute>
+            </action> </item>
+            <item label="QtConfig"> <action name="Execute">
+                <execute>qtconfig</execute>
+            </action> </item>
+            <item label="Top"> <action name="Execute">
+                <execute>xterm -e top</execute>
+            </action> </item>
+        </menu>
+        <menu id="38" label="Utilities">
+            <item label="About Xfce"> <action name="Execute">
+                <execute>xfce4-about</execute>
+            </action> </item>
+            <item label="Archive Manager"> <action name="Execute">
+                <execute>file-roller</execute>
+            </action> </item>
+            <item label="Catfish File Search"> <action name="Execute">
+                <execute>catfish</execute>
+            </action> </item>
+            <item label="compton"> <action name="Execute">
+                <execute>compton</execute>
+            </action> </item>
+            <item label="File Manager"> <action name="Execute">
+                <execute>exo-open --launch FileManager</execute>
+            </action> </item>
+            <item label="Info"> <action name="Execute">
+                <execute>xterm -e info</execute>
+            </action> </item>
+            <item label="picom"> <action name="Execute">
+                <execute>picom</execute>
+            </action> </item>
+            <item label="Terminal Emulator"> <action name="Execute">
+                <execute>exo-open --launch TerminalEmulator</execute>
+            </action> </item>
+        </menu>
+        <separator/>
+        <menu id="40" label="OpenBox">
+            <menu id="client-list-menu"/>
+            <item label="Reconfigure"> <action name="Reconfigure"/> </item>
+            <separator/>
+            <item label="Exit"> <action name="Exit"/> </item>
+        </menu>
+    </menu>
+</openbox_menu>

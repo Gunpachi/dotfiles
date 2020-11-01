@@ -14,7 +14,7 @@ super + shift + f
 	st -e ranger
 #Web-Browser
 super + b
-	firefox-bin
+	firefox
 
 # program launcher
 super + @space
