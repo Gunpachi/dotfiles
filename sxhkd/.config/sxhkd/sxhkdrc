@@ -4,14 +4,14 @@
 
 # terminal emulator
 super + Return
-	kitty
+	st
 
 #File Manager
 super + f
-	thunar
+	pcmanfm
 
 super + shift + f
-	kitty -e ranger
+	st -e ranger
 #Web-Browser
 super + b
 	firefox-bin
@@ -22,7 +22,7 @@ super + @space
 
 #Code Editor
 super + e
-	kitty -e nvim
+	st -e nvim
 super + shift + e
 	subl
 
@@ -31,7 +31,7 @@ super + Escape
 	pkill -USR1 -x sxhkd
 #Music
 super + m
-	kitty -e ncmpcpp
+	st -e ncmpcpp
 
 #Toggling Redshift
 super + shift + r
