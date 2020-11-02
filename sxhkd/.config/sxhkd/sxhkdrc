@@ -4,14 +4,14 @@
 
 # terminal emulator
 super + Return
-	st
+	kitty
 
 #File Manager
 super + f
 	pcmanfm
 
 super + shift + f
-	st -e ranger
+	kitty -e nnn
 #Web-Browser
 super + b
 	firefox-bin
@@ -22,7 +22,7 @@ super + @space
 
 #Code Editor
 super + e
-	st -e nvim
+	kitty -e nvim
 super + shift + e
 	subl
 
