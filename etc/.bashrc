@@ -25,8 +25,7 @@ export NNN_PLUG='f:finder;o:fzopen;p:mocplay;d:diffs;t:nmount;v:imgview'
 [ -f ~/.fzf.bash ] && source ~/.fzf.bash
 
 #aliases
-alias sudo=doas
+#alias sudo=doas
 alias vim=nvim
 
 
-export CPR_LIB = "~/cpr" 
